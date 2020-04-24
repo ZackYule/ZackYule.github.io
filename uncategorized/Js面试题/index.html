@@ -21,34 +21,34 @@
 
 
 
-  <link rel="alternate" href="/default" title="ZY'blog">
+  <link rel="alternate" href="/myblog/default" title="ZY'blog">
 
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1" />
+  <link rel="shortcut icon" type="image/x-icon" href="/myblog/favicon.ico?v=1.1" />
 
 
 
-<link rel="canonical" href="https://blog.zackyule.workers.dev/uncategorized/Js面试题/"/>
+<link rel="canonical" href="http://zackyule.gitee.io/myblog/uncategorized/Js面试题/"/>
 
 
 <meta name="description" content="Js面试题牛客判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructortypeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便var a &#x3D; “ing.”; var b &#x3D; 111; var c&#x3D; [1,2,3,4]; var d &#x3D; new Date(); var">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Js面试题">
-<meta property="og:url" content="https://blog.zackyule.workers.dev/uncategorized/Js%E9%9D%A2%E8%AF%95%E9%A2%98/index.html">
+<meta property="og:url" content="http://zackyule.gitee.io/myblog/uncategorized/Js%E9%9D%A2%E8%AF%95%E9%A2%98/index.html">
 <meta property="og:site_name" content="ZY&#39;blog">
 <meta property="og:description" content="Js面试题牛客判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructortypeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便var a &#x3D; “ing.”; var b &#x3D; 111; var c&#x3D; [1,2,3,4]; var d &#x3D; new Date(); var">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog.zackyule.workers.dev/.dev//xxx">
+<meta property="og:image" content="http://zackyule.gitee.io/myblog/.io//xxx">
 <meta property="article:published_time" content="2020-04-21T00:58:21.721Z">
 <meta property="article:modified_time" content="2020-04-21T00:58:21.721Z">
 <meta property="article:author" content="Zack Yule">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog.zackyule.workers.dev/.dev//xxx">
+<meta name="twitter:image" content="http://zackyule.gitee.io/myblog/.io//xxx">
 
 
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
+<link rel="stylesheet" type="text/css" href="/myblog/css/style.css?v=1.1" />
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
 
 
@@ -77,7 +77,7 @@
     <div id="page">
       <header id="masthead"><div class="site-header-inner">
     <h1 class="site-title">
-        <a href="/." class="logo">ZY'blog</a>
+        <a href="/myblog/." class="logo">ZY'blog</a>
     </h1>
 
     <nav id="nav-top">
@@ -85,7 +85,7 @@
             <ul id="menu-top" class="nav-top-items">
                 
                     <li class="menu-item">
-                        <a href="/archives">
+                        <a href="/myblog/archives">
                             
                             
                                 Archives
@@ -94,7 +94,7 @@
                     </li>
                 
                     <li class="menu-item">
-                        <a href="/about">
+                        <a href="/myblog/about">
                             
                             
                                 About
@@ -275,7 +275,7 @@
 <h5 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h5><h6 id="同源"><a href="#同源" class="headerlink" title="同源"></a>同源</h6><p>####### 所谓同源是指，域名，协议，端口相同</p>
 <h5 id="行为"><a href="#行为" class="headerlink" title="行为"></a>行为</h5><h6 id="如果非同源，那么在请求数据时，浏览器会在控制台中报一个异常，提示拒绝访问"><a href="#如果非同源，那么在请求数据时，浏览器会在控制台中报一个异常，提示拒绝访问" class="headerlink" title="如果非同源，那么在请求数据时，浏览器会在控制台中报一个异常，提示拒绝访问"></a>如果非同源，那么在请求数据时，浏览器会在控制台中报一个异常，提示拒绝访问</h6><h5 id="说明-8"><a href="#说明-8" class="headerlink" title="说明"></a>说明</h5><h6 id="同源策略是浏览器的行为，是为了保护本地数据不被JavaScript代码获取回来的数据污染"><a href="#同源策略是浏览器的行为，是为了保护本地数据不被JavaScript代码获取回来的数据污染" class="headerlink" title="同源策略是浏览器的行为，是为了保护本地数据不被JavaScript代码获取回来的数据污染"></a>同源策略是浏览器的行为，是为了保护本地数据不被JavaScript代码获取回来的数据污染</h6><p>####### 因此拦截的是客户端发出的请求回来的数据接收，即请求发送了，服务器响应了，但是无法被浏览器接收</p>
 <h5 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h5><h6 id><a href="#" class="headerlink" title></a></h6><p>####### http和https也属于跨域</p>
-<h4 id="跨域的实现方式"><a href="#跨域的实现方式" class="headerlink" title="跨域的实现方式"></a>跨域的实现方式</h4><h5 id="背景-2"><a href="#背景-2" class="headerlink" title="背景"></a>背景</h5><h6 id="是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的"><a href="#是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的" class="headerlink" title="是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的"></a>是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的</h6><p>####### <img src="/.dev//xxx" alt></p>
+<h4 id="跨域的实现方式"><a href="#跨域的实现方式" class="headerlink" title="跨域的实现方式"></a>跨域的实现方式</h4><h5 id="背景-2"><a href="#背景-2" class="headerlink" title="背景"></a>背景</h5><h6 id="是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的"><a href="#是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的" class="headerlink" title="是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的"></a>是的，浏览器遵守同源策略，但是有若干个标签是允许跨域的</h6><p>####### <img src="/myblog/.io//xxx" alt></p>
 <p>####### <link href="xxx"></p>
 <p>####### <script src="xxx"></script></p>
 <h6 id="这些标签一般是加载静态资源的，和后端关系不大，我们应该关心如何解决AJAX跨域问题"><a href="#这些标签一般是加载静态资源的，和后端关系不大，我们应该关心如何解决AJAX跨域问题" class="headerlink" title="这些标签一般是加载静态资源的，和后端关系不大，我们应该关心如何解决AJAX跨域问题"></a>这些标签一般是加载静态资源的，和后端关系不大，我们应该关心如何解决AJAX跨域问题</h6><h5 id="解决跨域的方式"><a href="#解决跨域的方式" class="headerlink" title="解决跨域的方式"></a>解决跨域的方式</h5><h6 id="JSONP"><a href="#JSONP" class="headerlink" title="JSONP"></a>JSONP</h6><p>####### 实现</p>
@@ -444,14 +444,14 @@
         
   <nav class="post-nav">
     
-      <a class="prev" href="/uncategorized/test/">
+      <a class="prev" href="/myblog/uncategorized/test/">
         <i class="iconfont icon-left"></i>
         <span class="prev-text nav-default">test</span>
         <span class="prev-text nav-mobile">上一篇</span>
       </a>
     
     
-      <a class="next" href="/uncategorized/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+      <a class="next" href="/myblog/uncategorized/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
         <span class="next-text nav-default">我的第一篇文章</span>
         <span class="prev-text nav-mobile">下一篇</span>
         <i class="iconfont icon-right"></i>
@@ -499,13 +499,13 @@
 
 
   
-    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/myblog/lib/jquery/jquery-3.1.1.min.js"></script>
   
 
   
 
-    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
-<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+    <script type="text/javascript" src="/myblog/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/myblog/js/src/bootstrap.js?v=1.1"></script>
 
   </body>
 </html>
