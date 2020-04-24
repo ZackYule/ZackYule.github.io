@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+<html lang="en">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
 
-  
-  <title>Js面试题 | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Js面试题牛客判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructortypeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便var a &#x3D; “ing.”; var b &#x3D; 111; var c&#x3D; [1,2,3,4]; var d &#x3D; new Date(); var">
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="Js面试题"/>
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/default" title="Hexo">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1" />
+
+
+
+<link rel="canonical" href="https://blog.zackyule.workers.dev/2020/04/21/Js面试题/"/>
+
+
+<meta name="description" content="Js面试题牛客判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructortypeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便var a &#x3D; “ing.”; var b &#x3D; 111; var c&#x3D; [1,2,3,4]; var d &#x3D; new Date(); var">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Js面试题">
 <meta property="og:url" content="https://blog.zackyule.workers.dev/2020/04/21/Js%E9%9D%A2%E8%AF%95%E9%A2%98/index.html">
@@ -20,77 +46,92 @@
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://blog.zackyule.workers.dev/.dev//xxx">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 4.2.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://blog.zackyule.workers.dev"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-Js面试题" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/21/Js%E9%9D%A2%E8%AF%95%E9%A2%98/" class="article-date">
-  <time datetime="2020-04-21T00:58:21.721Z" itemprop="datePublished">2020-04-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+
+  <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: ture
+    },
+  };
+</script>
+
+
+
+
   
-    <h1 class="article-title" itemprop="name">
-      Js面试题
+
+
+
+    <title> Js面试题 - Hexo </title>
+  <meta name="generator" content="Hexo 4.2.0"></head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">Hexo</a>
     </h1>
-  
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
 
       </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          Js面试题
+        
+      </h1>
+
+      <time class="post-time">
+          Apr 21 2020
+      </time>
+    </header>
+
+
+
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Js面试题"><a href="#Js面试题" class="headerlink" title="Js面试题"></a>Js面试题</h1><h2 id="牛客"><a href="#牛客" class="headerlink" title="牛客"></a>牛客</h2><h3 id="判断数据类型typeof、instanceof、Object-prototype-toString-call-、constructor"><a href="#判断数据类型typeof、instanceof、Object-prototype-toString-call-、constructor" class="headerlink" title="判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructor"></a>判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructor</h3><h4 id="typeof-返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便"><a href="#typeof-返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便" class="headerlink" title="typeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便"></a>typeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便</h4><h5 id="var-a-“ing-”-var-b-111-var-c-1-2-3-4-var-d-new-Date-var-e-function-alert-111"><a href="#var-a-“ing-”-var-b-111-var-c-1-2-3-4-var-d-new-Date-var-e-function-alert-111" class="headerlink" title="var a = “ing.”; var b = 111; var c= [1,2,3,4]; var d = new Date(); var e = function(){alert(111);};"></a>var a = “ing.”; var b = 111; var c= [1,2,3,4]; var d = new Date(); var e = function(){alert(111);};</h5><h6 id="result-typeof-a-string-result-typeof-b-number-result-typeof-c-object-result-typeof-d-object-result-typeof-e-function"><a href="#result-typeof-a-string-result-typeof-b-number-result-typeof-c-object-result-typeof-d-object-result-typeof-e-function" class="headerlink" title="result(typeof a); // string result(typeof b); // number result(typeof c); // object result(typeof d); // object result(typeof e); // function"></a>result(typeof a); // string result(typeof b); // number result(typeof c); // object result(typeof d); // object result(typeof e); // function</h6><h5 id="null得到的结果是object"><a href="#null得到的结果是object" class="headerlink" title="null得到的结果是object"></a>null得到的结果是object</h5><h4 id="instanceof"><a href="#instanceof" class="headerlink" title="instanceof"></a>instanceof</h4><h5 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h5><h6 id="xx-instanceOf-String"><a href="#xx-instanceOf-String" class="headerlink" title="xx instanceOf String"></a>xx instanceOf String</h6><h5 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h5><h6 id="既是对象也是数组，字符串…"><a href="#既是对象也是数组，字符串…" class="headerlink" title="既是对象也是数组，字符串…"></a>既是对象也是数组，字符串…</h6><h4 id="Object-prototype-toString"><a href="#Object-prototype-toString" class="headerlink" title="Object.prototype.toString"></a>Object.prototype.toString</h4><h5 id="通用很繁琐"><a href="#通用很繁琐" class="headerlink" title="通用很繁琐"></a>通用很繁琐</h5><h6 id="result-Object-prototype-toString-call-a-‘-object-String-‘-true-result-Object-prototype-toString-call-b-‘-object-Number-‘-true-result-Object-prototype-toString-call-c-‘-object-Array-‘-true-result-Object-prototype-toString-call-d-‘-object-Date-‘-true-result-Object-prototype-toString-call-e-‘-object-Function-‘-true"><a href="#result-Object-prototype-toString-call-a-‘-object-String-‘-true-result-Object-prototype-toString-call-b-‘-object-Number-‘-true-result-Object-prototype-toString-call-c-‘-object-Array-‘-true-result-Object-prototype-toString-call-d-‘-object-Date-‘-true-result-Object-prototype-toString-call-e-‘-object-Function-‘-true" class="headerlink" title="result(Object.prototype.toString.call(a) === ‘[object String]‘); // true; result(Object.prototype.toString.call(b) === ‘[object Number]‘); // true; result(Object.prototype.toString.call(c) === ‘[object Array]‘); // true; result(Object.prototype.toString.call(d) === ‘[object Date]‘); // true; result(Object.prototype.toString.call(e) === ‘[object Function]‘); // true;"></a>result(Object.prototype.toString.call(a) === ‘[object String]‘); // true; result(Object.prototype.toString.call(b) === ‘[object Number]‘); // true; result(Object.prototype.toString.call(c) === ‘[object Array]‘); // true; result(Object.prototype.toString.call(d) === ‘[object Date]‘); // true; result(Object.prototype.toString.call(e) === ‘[object Function]‘); // true;</h6><h4 id="constructor-这个属性在类继承时会出错"><a href="#constructor-这个属性在类继承时会出错" class="headerlink" title="constructor 这个属性在类继承时会出错"></a>constructor 这个属性在类继承时会出错</h4><h3 id="类数组与数组的区别与转换"><a href="#类数组与数组的区别与转换" class="headerlink" title="类数组与数组的区别与转换"></a>类数组与数组的区别与转换</h3><h4 id="类数组"><a href="#类数组" class="headerlink" title="类数组"></a>类数组</h4><h5 id="本质"><a href="#本质" class="headerlink" title="本质"></a>本质</h5><h6 id="所谓类似数组的对象，本质特征只有一点，即必须有length属性"><a href="#所谓类似数组的对象，本质特征只有一点，即必须有length属性" class="headerlink" title="所谓类似数组的对象，本质特征只有一点，即必须有length属性"></a>所谓类似数组的对象，本质特征只有一点，即必须有length属性</h6><p>####### array-like object就是实现了部分array接口的object</p>
+            <div class="post-content">
+            <h1 id="Js面试题"><a href="#Js面试题" class="headerlink" title="Js面试题"></a>Js面试题</h1><h2 id="牛客"><a href="#牛客" class="headerlink" title="牛客"></a>牛客</h2><h3 id="判断数据类型typeof、instanceof、Object-prototype-toString-call-、constructor"><a href="#判断数据类型typeof、instanceof、Object-prototype-toString-call-、constructor" class="headerlink" title="判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructor"></a>判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructor</h3><h4 id="typeof-返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便"><a href="#typeof-返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便" class="headerlink" title="typeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便"></a>typeof 返回的类型都是字符串形式，可判断function的类型，在判断除Object类型的对象时比较方便</h4><h5 id="var-a-“ing-”-var-b-111-var-c-1-2-3-4-var-d-new-Date-var-e-function-alert-111"><a href="#var-a-“ing-”-var-b-111-var-c-1-2-3-4-var-d-new-Date-var-e-function-alert-111" class="headerlink" title="var a = “ing.”; var b = 111; var c= [1,2,3,4]; var d = new Date(); var e = function(){alert(111);};"></a>var a = “ing.”; var b = 111; var c= [1,2,3,4]; var d = new Date(); var e = function(){alert(111);};</h5><h6 id="result-typeof-a-string-result-typeof-b-number-result-typeof-c-object-result-typeof-d-object-result-typeof-e-function"><a href="#result-typeof-a-string-result-typeof-b-number-result-typeof-c-object-result-typeof-d-object-result-typeof-e-function" class="headerlink" title="result(typeof a); // string result(typeof b); // number result(typeof c); // object result(typeof d); // object result(typeof e); // function"></a>result(typeof a); // string result(typeof b); // number result(typeof c); // object result(typeof d); // object result(typeof e); // function</h6><h5 id="null得到的结果是object"><a href="#null得到的结果是object" class="headerlink" title="null得到的结果是object"></a>null得到的结果是object</h5><h4 id="instanceof"><a href="#instanceof" class="headerlink" title="instanceof"></a>instanceof</h4><h5 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h5><h6 id="xx-instanceOf-String"><a href="#xx-instanceOf-String" class="headerlink" title="xx instanceOf String"></a>xx instanceOf String</h6><h5 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h5><h6 id="既是对象也是数组，字符串…"><a href="#既是对象也是数组，字符串…" class="headerlink" title="既是对象也是数组，字符串…"></a>既是对象也是数组，字符串…</h6><h4 id="Object-prototype-toString"><a href="#Object-prototype-toString" class="headerlink" title="Object.prototype.toString"></a>Object.prototype.toString</h4><h5 id="通用很繁琐"><a href="#通用很繁琐" class="headerlink" title="通用很繁琐"></a>通用很繁琐</h5><h6 id="result-Object-prototype-toString-call-a-‘-object-String-‘-true-result-Object-prototype-toString-call-b-‘-object-Number-‘-true-result-Object-prototype-toString-call-c-‘-object-Array-‘-true-result-Object-prototype-toString-call-d-‘-object-Date-‘-true-result-Object-prototype-toString-call-e-‘-object-Function-‘-true"><a href="#result-Object-prototype-toString-call-a-‘-object-String-‘-true-result-Object-prototype-toString-call-b-‘-object-Number-‘-true-result-Object-prototype-toString-call-c-‘-object-Array-‘-true-result-Object-prototype-toString-call-d-‘-object-Date-‘-true-result-Object-prototype-toString-call-e-‘-object-Function-‘-true" class="headerlink" title="result(Object.prototype.toString.call(a) === ‘[object String]‘); // true; result(Object.prototype.toString.call(b) === ‘[object Number]‘); // true; result(Object.prototype.toString.call(c) === ‘[object Array]‘); // true; result(Object.prototype.toString.call(d) === ‘[object Date]‘); // true; result(Object.prototype.toString.call(e) === ‘[object Function]‘); // true;"></a>result(Object.prototype.toString.call(a) === ‘[object String]‘); // true; result(Object.prototype.toString.call(b) === ‘[object Number]‘); // true; result(Object.prototype.toString.call(c) === ‘[object Array]‘); // true; result(Object.prototype.toString.call(d) === ‘[object Date]‘); // true; result(Object.prototype.toString.call(e) === ‘[object Function]‘); // true;</h6><h4 id="constructor-这个属性在类继承时会出错"><a href="#constructor-这个属性在类继承时会出错" class="headerlink" title="constructor 这个属性在类继承时会出错"></a>constructor 这个属性在类继承时会出错</h4><h3 id="类数组与数组的区别与转换"><a href="#类数组与数组的区别与转换" class="headerlink" title="类数组与数组的区别与转换"></a>类数组与数组的区别与转换</h3><h4 id="类数组"><a href="#类数组" class="headerlink" title="类数组"></a>类数组</h4><h5 id="本质"><a href="#本质" class="headerlink" title="本质"></a>本质</h5><h6 id="所谓类似数组的对象，本质特征只有一点，即必须有length属性"><a href="#所谓类似数组的对象，本质特征只有一点，即必须有length属性" class="headerlink" title="所谓类似数组的对象，本质特征只有一点，即必须有length属性"></a>所谓类似数组的对象，本质特征只有一点，即必须有length属性</h6><p>####### array-like object就是实现了部分array接口的object</p>
 <p>####### 这跟让一个class实现一个Iterator接口是十分类似的</p>
 <h5 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h5><h6 id="拥有length属性，可以使用下标来访问元素，这两点和数组相同"><a href="#拥有length属性，可以使用下标来访问元素，这两点和数组相同" class="headerlink" title="拥有length属性，可以使用下标来访问元素，这两点和数组相同"></a>拥有length属性，可以使用下标来访问元素，这两点和数组相同</h6><h6 id="不能使用数组的方法，他们不能使用Array的方法"><a href="#不能使用数组的方法，他们不能使用Array的方法" class="headerlink" title="不能使用数组的方法，他们不能使用Array的方法"></a>不能使用数组的方法，他们不能使用Array的方法</h6><h5 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h5><h6 id="对console输出更友好，简单说就是更直观"><a href="#对console输出更友好，简单说就是更直观" class="headerlink" title="对console输出更友好，简单说就是更直观"></a>对console输出更友好，简单说就是更直观</h6><h6 id="有的时候，数组是不够用的，我们可能还要存一些元数据在这个数组上，或者有些对这个数组每个元素适用的方法"><a href="#有的时候，数组是不够用的，我们可能还要存一些元数据在这个数组上，或者有些对这个数组每个元素适用的方法" class="headerlink" title="有的时候，数组是不够用的，我们可能还要存一些元数据在这个数组上，或者有些对这个数组每个元素适用的方法"></a>有的时候，数组是不够用的，我们可能还要存一些元数据在这个数组上，或者有些对这个数组每个元素适用的方法</h6><h5 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h5><h6 id="arguments-对象"><a href="#arguments-对象" class="headerlink" title="arguments 对象"></a>arguments 对象</h6><p>####### js原生的数组（注意是做数组用的，function什么的不算）除了arguments外基本是真数组</p>
 <h6 id="浏览器根据规范实现的-使用-querySelectorAll-选择到的元素集合-HTMLCollection"><a href="#浏览器根据规范实现的-使用-querySelectorAll-选择到的元素集合-HTMLCollection" class="headerlink" title="浏览器根据规范实现的. 使用 querySelectorAll 选择到的元素集合 [ HTMLCollection ]"></a>浏览器根据规范实现的. 使用 querySelectorAll 选择到的元素集合 [ HTMLCollection ]</h6><p>####### DOM相关的数组基本都是类数组，如window（length属性是frame/iframe数量） storage(比如localStorage、sessionStorage，length属性是里面存的数据的条数，说起来这能算数组吗……)</p>
@@ -394,130 +435,83 @@
 <h6 id="微任务处理"><a href="#微任务处理" class="headerlink" title="微任务处理"></a>微任务处理</h6><p>####### 原理</p>
 <p>######## 直接写入promise的then方法当中</p>
 <h3 id="29-BOM属性对象方法"><a href="#29-BOM属性对象方法" class="headerlink" title="29. BOM属性对象方法"></a>29. BOM属性对象方法</h3><h3 id="30-函数柯里化及其通用封装"><a href="#30-函数柯里化及其通用封装" class="headerlink" title="30. 函数柯里化及其通用封装"></a>30. 函数柯里化及其通用封装</h3><h3 id="31-JS的map-和reduce-方法"><a href="#31-JS的map-和reduce-方法" class="headerlink" title="31. JS的map()和reduce()方法"></a>31. JS的map()和reduce()方法</h3><h3 id="32-和-的区别"><a href="#32-和-的区别" class="headerlink" title="32. "=="和"==="的区别"></a>32. "=="和"==="的区别</h3><h3 id="33-setTimeout用作倒计时为何会产生误差？"><a href="#33-setTimeout用作倒计时为何会产生误差？" class="headerlink" title="33. setTimeout用作倒计时为何会产生误差？"></a>33. setTimeout用作倒计时为何会产生误差？</h3><h2 id="ES6"><a href="#ES6" class="headerlink" title="ES6"></a>ES6</h2><h3 id="1-let、const和var的概念与区别"><a href="#1-let、const和var的概念与区别" class="headerlink" title="1. let、const和var的概念与区别"></a>1. let、const和var的概念与区别</h3><h3 id="2-变量提升与暂时性死区"><a href="#2-变量提升与暂时性死区" class="headerlink" title="2. 变量提升与暂时性死区"></a>2. 变量提升与暂时性死区</h3><h3 id="3-变量的结构赋值"><a href="#3-变量的结构赋值" class="headerlink" title="3. 变量的结构赋值"></a>3. 变量的结构赋值</h3><h3 id="4-箭头函数及其this问题"><a href="#4-箭头函数及其this问题" class="headerlink" title="4. 箭头函数及其this问题"></a>4. 箭头函数及其this问题</h3><h3 id="5-Symbol概念及其作用"><a href="#5-Symbol概念及其作用" class="headerlink" title="5. Symbol概念及其作用"></a>5. Symbol概念及其作用</h3><h3 id="6-Set和Map数据结构"><a href="#6-Set和Map数据结构" class="headerlink" title="6. Set和Map数据结构"></a>6. Set和Map数据结构</h3><h3 id="7-Proxy"><a href="#7-Proxy" class="headerlink" title="7. Proxy"></a>7. Proxy</h3><h3 id="8-Reflect对象"><a href="#8-Reflect对象" class="headerlink" title="8. Reflect对象"></a>8. Reflect对象</h3><h3 id="9-Promise（手撕Promise-A-规范、Promise-all、Promise相关API和方法）"><a href="#9-Promise（手撕Promise-A-规范、Promise-all、Promise相关API和方法）" class="headerlink" title="9. Promise（手撕Promise A+规范、Promise.all、Promise相关API和方法）"></a>9. Promise（手撕Promise A+规范、Promise.all、Promise相关API和方法）</h3><h3 id="10-Iterator和for-of（Iterator遍历器的实现）"><a href="#10-Iterator和for-of（Iterator遍历器的实现）" class="headerlink" title="10. Iterator和for...of（Iterator遍历器的实现）"></a>10. Iterator和for...of（Iterator遍历器的实现）</h3><h3 id="11-循环语法比较及使用场景（for、forEach、for-in、for-of）"><a href="#11-循环语法比较及使用场景（for、forEach、for-in、for-of）" class="headerlink" title="11. 循环语法比较及使用场景（for、forEach、for...in、for...of）"></a>11. 循环语法比较及使用场景（for、forEach、for...in、for...of）</h3><h3 id="12-Generator及其异步方面的应用"><a href="#12-Generator及其异步方面的应用" class="headerlink" title="12. Generator及其异步方面的应用"></a>12. Generator及其异步方面的应用</h3><h3 id="13-async函数"><a href="#13-async函数" class="headerlink" title="13. async函数"></a>13. async函数</h3><h3 id="14-几种异步方式的比较（回调、setTimeout、Promise、Generator、async）"><a href="#14-几种异步方式的比较（回调、setTimeout、Promise、Generator、async）" class="headerlink" title="14. 几种异步方式的比较（回调、setTimeout、Promise、Generator、async）"></a>14. 几种异步方式的比较（回调、setTimeout、Promise、Generator、async）</h3><h3 id="15-class基本语法及继承"><a href="#15-class基本语法及继承" class="headerlink" title="15. class基本语法及继承"></a>15. class基本语法及继承</h3><h3 id="16-模块加载方案比较（CommonJS和ES6的Module）"><a href="#16-模块加载方案比较（CommonJS和ES6的Module）" class="headerlink" title="16. 模块加载方案比较（CommonJS和ES6的Module）"></a>16. 模块加载方案比较（CommonJS和ES6的Module）</h3><h3 id="17-ES6模块加载与CommonJS加载的原理"><a href="#17-ES6模块加载与CommonJS加载的原理" class="headerlink" title="17. ES6模块加载与CommonJS加载的原理"></a>17. ES6模块加载与CommonJS加载的原理</h3><h2 id="补充-2"><a href="#补充-2" class="headerlink" title="补充"></a>补充</h2><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><h4 id="在函数执行的时候会在函数内部创建两个变量，arguments，this"><a href="#在函数执行的时候会在函数内部创建两个变量，arguments，this" class="headerlink" title="在函数执行的时候会在函数内部创建两个变量，arguments，this"></a>在函数执行的时候会在函数内部创建两个变量，arguments，this</h4><h4 id="arguments储存着实参的一个类数组对象"><a href="#arguments储存着实参的一个类数组对象" class="headerlink" title="arguments储存着实参的一个类数组对象"></a>arguments储存着实参的一个类数组对象</h4><h4 id="this指向函数执行的上下文"><a href="#this指向函数执行的上下文" class="headerlink" title="this指向函数执行的上下文"></a>this指向函数执行的上下文</h4><h5 id="谁调用这个函数，this就指向谁"><a href="#谁调用这个函数，this就指向谁" class="headerlink" title="谁调用这个函数，this就指向谁"></a>谁调用这个函数，this就指向谁</h5></script></p>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://blog.zackyule.workers.dev/2020/04/21/Js%E9%9D%A2%E8%AF%95%E9%A2%98/" data-id="ck9dm8vmq0003ag0v78167ibx" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
+            </div>
+          
+
     
-<nav id="article-nav">
-  
-    <a href="/2020/04/21/test/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
+      <footer class="post-footer">
+		
+
         
-          test
         
+  <nav class="post-nav">
+    
+      <a class="prev" href="/2020/04/21/test/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">test</span>
+        <span class="prev-text nav-mobile">Prev</span>
+      </a>
+    
+    
+      <a class="next" href="/2020/04/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+        <span class="next-text nav-default">我的第一篇文章</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
       </div>
-    </a>
-  
-  
-    <a href="/2020/04/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">我的第一篇文章</div>
-    </a>
-  
-</nav>
 
-  
-</article>
-
-</section>
-        
-          <aside id="sidebar">
-  
+      <footer id="colophon"><span class="copyright-year">
     
-
-  
+        &copy;
     
+    2020
+    <span class="footer-author">John Doe.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear" target="_blank" rel="noopener">Polar Bear</a>
+    </span>
+</span>
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li></ul>
-    </div>
-  </div>
+      </footer>
 
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2020/04/24/%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/">图床测试</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/22/t3/">t3</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/22/test2/">test2</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/">我的第二篇文章</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/22/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
     
 
-<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+
+    
+  
+
+
+
 
 
   
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
 
   
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
+  
 
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
 
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
-</body>
+  </body>
 </html>
